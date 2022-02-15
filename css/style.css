@@ -37,6 +37,10 @@ main footer{
     color: #137CD2;
 }
 
+#now-button{
+    background-color: white;
+    color: black;
+}
 
 /*UTILITY*/
 .my-color-white{
@@ -133,9 +137,7 @@ section#new-releases{
     background-position: center;
     height: 100%;
 }
-/* #playstation-plus{
-    height: 350px;
-} */
+
 
 div#logo-jumbotron-playstation-plus {
     background-image: url("../img/ps-plus-logo.png");
@@ -153,4 +155,28 @@ div#logo-jumbotron-playstation-plus {
 
 div.row#gallery-discounts div a img{
     border-radius: 0;
+}
+
+/*jumbotron-Playstation.now */
+
+#jumbotron-playstation-now{
+    background-image: url("../img/ps-now-april-featured-image-block.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+}
+
+
+div#logo-jumbotron-playstation-now {
+    background-image: url("../img/ps-now-logo-two-column.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+    max-width: 100%;
+    height: 80px;
+  
+  
+}
+.my-bg-blue{
+    background-color:#161C3B  ;
 }
