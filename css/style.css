@@ -9,3 +9,20 @@
     height: 10px;
     
 }
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+/* .dropdown::after{
+    content:' <i class="fa fa-arrow-down"></i>';
+    display: inline-block;
+} */
+
+
+
+#enter-button{
+    background-color: #363636;
+    color: white;
+    
+}
