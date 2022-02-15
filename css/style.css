@@ -150,3 +150,7 @@ div#logo-jumbotron-playstation-plus {
 .my-bg-taupe{
     background-color:#BEBCBB  ;
 }
+
+div.row#gallery-discounts div a img{
+    border-radius: 0;
+}
