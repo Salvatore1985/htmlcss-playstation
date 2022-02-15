@@ -82,8 +82,49 @@ div#logo-jumbotron {
   
 }
 
-div#gallery >div a img {
+div#gallery >div a img ,
+div#new-gallery >div a img{
     border-radius: 10px;
+  
+
+}
+div#mini-cover >div  a ,
+div#new-gallery >div a {
+    text-decoration: none;
+    
+}
+
+div#mini-cover >div  a{
+   color: black;
+    
+}
+div#new-gallery >div a {
+    color: white;
+    
+}
+/*jumbotron-first-floor-nuove uscite */
+
+section#jumbotron-first-floor-new-releases{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+
+div#logo-jumbotron-new-releases {
+    background-image: url("../img/it-takes-two-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+    max-width: 100%;
+    height: 150px;
+    margin-bottom: 40px;
+  
+}
+section#new-releases{
+    background-color:#1F1F1F ;
 }
 
 
