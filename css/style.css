@@ -38,6 +38,10 @@ main footer{
     background-color: #CD3D0F;
     color: white;
 }
+#info-button{
+    background-color: #137CD2;
+    color: white;
+}
 
 
 /*UTILITY*/
@@ -49,7 +53,12 @@ main footer{
     padding-top: 15rem;
 }
 
-
+.my-color-blue{
+    color: #137CD2;
+}
+.my-color-grey{
+    color: #727272;
+}
 
 /*jumbotron-first-floor*/
 
