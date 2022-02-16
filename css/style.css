@@ -78,16 +78,18 @@ section#jumbotron-first-floor{
    
 
 }
-
+#my-container-logo-jumbotron{
+    height: 70px;
+}
 
 div#logo-jumbotron {
     background-image: url("../img/returnal-hero-banner-logo.png");
     background-repeat: no-repeat;
-    background-size: contain;  
-    max-width: 100%;
-    height: 40px;
-    margin-bottom: 40px;
-  
+    background-size: contain;
+    background-position: right;
+    width: 50%;
+    height: 100%;
+
 }
 
 div#gallery >div a img ,
@@ -114,7 +116,9 @@ div a {
     
 }
 /*jumbotron-first-floor-nuove uscite */
-
+#my-container-logo-jumbotron-new-releases{
+    height: 200px;
+}
 section#jumbotron-first-floor-new-releases{
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-repeat: no-repeat;
@@ -129,9 +133,10 @@ div#logo-jumbotron-new-releases {
     background-image: url("../img/it-takes-two-logo.png");
     background-repeat: no-repeat;
     background-size: contain;  
+    background-position: left;
     max-width: 100%;
-    height: 150px;
-    margin-bottom: 40px;
+    height: 100%;
+  
   
 }
 section#new-releases{
@@ -139,14 +144,16 @@ section#new-releases{
 }
 
 /*jumbotron-Playstation.Plus */
-
+#my-container-playstation-plus{
+    height: 450px;
+}
 #jumbotron-playstation-plus{
     background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
     height: 100%;
-}
+  }
+
 
 
 div#logo-jumbotron-playstation-plus {
