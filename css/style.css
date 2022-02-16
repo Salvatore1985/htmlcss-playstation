@@ -16,7 +16,7 @@ main footer{
     display: none;
 }
 
-/*STYLE BUTTON*/
+/**STYLE BUTTON**/
 #enter-button{
     background-color: #363636;
     color: white;
@@ -42,7 +42,7 @@ main footer{
     color: black;
 }
 
-/*UTILITY*/
+/**UTILITY**/
 .my-color-white{
     color: white;
 }
@@ -68,7 +68,8 @@ main footer{
     padding-top: 15rem;
 }
 
-/*jumbotron-first-floor*/
+
+/**jumbotron-first-floor**/
 
 section#jumbotron-first-floor{
     background-image: url("../img/jumbo-bg.png");
@@ -95,12 +96,34 @@ div#logo-jumbotron {
 div#gallery >div a img ,
 div a img{
     border-radius: 10px;
-  
 
 }
+
+div#gallery >div a img {
+    border-radius: 10px;
+    filter: opacity(70%);
+}
+
+
+
+div#gallery >div a img:hover{
+    filter:none;
+    border: 2px  solid #137CD2;
+   /*  transition: all .0s ease-in-out,height 3s; */
+    padding: .5rem;
+   
+}
+
+
+div#mini-cover >div  a{
+    filter: opacity(70%);
+}
+
+
 div#mini-cover >div  a ,
 div a {
     text-decoration: none;
+   
 }
 
 div a p{
@@ -115,7 +138,7 @@ div a {
     color: white;
     
 }
-/*jumbotron-first-floor-nuove uscite */
+/**jumbotron-first-floor-nuove uscite **/
 #my-container-logo-jumbotron-new-releases{
     height: 200px;
 }
@@ -160,7 +183,7 @@ div.row#gallery-discounts div a img{
     border-radius: 0;
 }
 
-/*jumbotron-Playstation.now */
+/**jumbotron-Playstation.now **/
 
 #jumbotron-playstation-now{
     height: 100%;
