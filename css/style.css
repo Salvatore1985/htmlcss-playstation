@@ -46,16 +46,26 @@ main footer{
 .my-color-white{
     color: white;
 }
-
-.my-pt-15{
-    padding-top: 15rem;
+.my-color-grey{
+    color: #727272;
 }
 
 .my-color-blue{
     color: #137CD2;
 }
-.my-color-grey{
-    color: #727272;
+
+.my-bg-taupe{
+    background-color:#BEBCBB  ;
+}
+.my-bg-blue-dark{
+    background-color:#161C3B  ;
+}
+.my-bg-blue{
+    background-color:#00439C  ;
+}
+
+.my-pt-15{
+    padding-top: 15rem;
 }
 
 /*jumbotron-first-floor*/
@@ -149,9 +159,7 @@ div#logo-jumbotron-playstation-plus {
   
 }
 
-.my-bg-taupe{
-    background-color:#BEBCBB  ;
-}
+
 
 div.row#gallery-discounts div a img{
     border-radius: 0;
@@ -177,6 +185,41 @@ div#logo-jumbotron-playstation-now {
   
   
 }
-.my-bg-blue{
-    background-color:#161C3B  ;
+
+
+/** footer **/
+#my-container-play-logo{
+height: 100px;
+width: 100px;
+position: relative;
+
+
+}
+
+
+#play-logo{
+    height: 100%;
+  
+}
+.brand-name::after{
+    content: "®" ;
+    display: inline-block;
+    position: absolute;
+    bottom: 12%;
+    right: 16%;
+    color: white;
+    width: 1%;
+  
+}
+
+#my-container-language-globe{
+    height: 40px;
+}
+
+#my-container-language-globe img{
+    height: 50%;
+}
+
+ul.list-footer li {
+list-style-type: none;
 }
