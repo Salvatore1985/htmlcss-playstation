@@ -144,25 +144,18 @@ section#new-releases{
 }
 
 /*jumbotron-Playstation.Plus */
-#my-container-playstation-plus{
-    height: 450px;
-}
+
 #jumbotron-playstation-plus{
-    background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
+ /*    background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
     height: 100%;
   }
 
 
 
-div#logo-jumbotron-playstation-plus {
-    background-image: url("../img/ps-plus-logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;  
-    max-width: 100%;
-    height: 80px;
-  
+#logo-jumbotron-playstation-plus {
+    width: 60%;
   
 }
 
@@ -175,18 +168,14 @@ div.row#gallery-discounts div a img{
 /*jumbotron-Playstation.now */
 
 #jumbotron-playstation-now{
-    background-image: url("../img/ps-now-april-featured-image-block.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     height: 100%;
 }
 
 
 div#logo-jumbotron-playstation-now {
-    background-image: url("../img/ps-now-logo-two-column.png");
+  /*   background-image: url("../img/ps-now-logo-two-column.png");
     background-repeat: no-repeat;
-    background-size: contain;  
+    background-size: contain;   */
     max-width: 100%;
     height: 80px;
   
