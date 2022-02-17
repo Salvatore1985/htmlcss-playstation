@@ -1,9 +1,8 @@
-header{
-    font-family: 'Arial', sans-serif;
-}
 
 main footer{
+    
     font-family: 'Montserrat', sans-serif;
+
 }
 
 #sony-logo {
@@ -12,9 +11,6 @@ main footer{
     line-height: 50px;
 }
 
-.dropdown-toggle::after{
-    display: none;
-}
 
 /**STYLE BUTTON**/
 #enter-button{
@@ -67,6 +63,21 @@ main footer{
 .my-pt-15{
     padding-top: 15rem;
 }
+/*HOVER*/
+.cover-mini-ps5:hover{
+    transform: scale(1.2);
+    filter:none;
+    border-bottom: 3px  solid #137CD2;
+    
+}
+div#gallery >div a img:hover{
+    filter:none;
+    border: 2px  solid #137CD2;
+    margin-bottom: 5rem;
+   
+}
+
+
 
 
 /**jumbotron-first-floor**/
@@ -93,29 +104,18 @@ div#logo-jumbotron {
 
 }
 
-div#gallery >div a img ,
-div a img{
-    border-radius: 10px;
-
-}
-
 div#gallery >div a img {
     border-radius: 10px;
     filter: opacity(70%);
+    border-radius: 30px;
+    transition: all 2s ease-in-out,height 0s;
+
 }
 
 
 
-div#gallery >div a img:hover{
-    filter:none;
-    border: 2px  solid #137CD2;
-   /*  transition: all .0s ease-in-out,height 3s; */
-    padding: .5rem;
-   
-}
 
-
-div#mini-cover >div  a{
+div#mini-cover >div  {
     filter: opacity(70%);
 }
 
@@ -197,7 +197,7 @@ div.row#gallery-discounts div a img{
 
 
 /** footer **/
-#my-container-play-logo{
+div#my-container-play-logo{
 height: 100px;
 width: 100px;
 position: relative;
