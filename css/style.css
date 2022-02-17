@@ -1,4 +1,15 @@
-
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+   
+}
+main{
+    margin-top: 125px;
+}
 main footer{
     
     font-family: 'Montserrat', sans-serif;
@@ -73,8 +84,7 @@ main footer{
 div#gallery >div a img:hover{
     filter:none;
     border: 2px  solid #137CD2;
-    margin-bottom: 5rem;
-   
+ 
 }
 
 
@@ -105,12 +115,12 @@ div#logo-jumbotron {
 }
 
 div#gallery >div a img {
-    border-radius: 10px;
     filter: opacity(70%);
     border-radius: 30px;
     transition: all 2s ease-in-out,height 0s;
-
-}
+    position: relative;
+    margin-bottom: 20px;
+    }
 
 
 
