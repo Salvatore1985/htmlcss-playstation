@@ -84,7 +84,7 @@ main footer{
 div#gallery >div a img:hover{
     filter:none;
     border: 2px  solid #137CD2;
- 
+ margin-bottom: 20px;
 }
 
 
@@ -118,8 +118,8 @@ div#gallery >div a img {
     filter: opacity(70%);
     border-radius: 30px;
     transition: all 2s ease-in-out,height 0s;
-    position: relative;
-    margin-bottom: 20px;
+   
+ 
     }
 
 
